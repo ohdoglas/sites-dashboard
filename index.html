@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher USB Dashboard - Sites</title>
+  <link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="header-top">
+        <div class="brand-block">
+          <h1>Dashboard de Sites</h1>
+          <p>Atalhos visuais para as ferramentas mais usadas no dia a dia.</p>
+        </div>
+        <div class="header-tools">
+          <div class="nav-pills">
+          </div>
+          <div class="search-wrap">
+            <input id="siteSearch" type="search" placeholder="Buscar site...">
+          </div>
+        </div>
+      </div>
+      <div class="quick-links-row">
+        <div class="quick-links-label">Categorias</div>
+        <div class="quick-links">
+          <a class="quick-link" href="#mais-usados">Mais usados</a>
+          <a class="quick-link" href="#trabalho">Trabalho</a>
+          <a class="quick-link" href="#desenvolvimento">Desenvolvimento</a>
+          <a class="quick-link" href="#design">Design</a>
+          <a class="quick-link" href="#robotica-eletronica">Robótica e Eletrônica</a>
+          <a class="quick-link" href="#pessoal">Pessoal</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-shell site-layout">
+    <section class="context-panel">
+    </section>
+    <section id="siteContent"></section>
+  </main>
+
+  <footer class="footer-inner">
+    <p>Os links externos estão configurados para abrir em nova aba, preservando o dashboard carregado.</p>
+  </footer>
+
+  <script src="data/sites.js"></script>
+  <script src="assets/js/sites.js"></script>
+</body>
+</html>
