@@ -7,7 +7,9 @@ window.TEACHER_USB_SITES = {
         { title: 'ChatGPT', description: 'IA e produtividade', href: 'https://chat.openai.com', image: 'https://chat.openai.com/favicon.ico' },
         { title: 'GitHub', description: 'Código e repositórios', href: 'https://github.com', image: 'https://github.githubassets.com/favicons/favicon.svg' },
         { title: 'Tinkercad', description: 'Simulação e prototipagem', href: 'https://www.tinkercad.com', image: 'https://www.tinkercad.com/favicon.ico' },
-        { title: 'Trello', description: 'Organização e Produtividade', href: 'https://trello.com', image: 'https://trello.com/favicon.ico' }
+        { title: 'Trello', description: 'Organização e Produtividade', href: 'https://trello.com', image: 'https://trello.com/favicon.ico' },
+        { title: 'Server Defense CLI', description: 'Simulador de CLI', href: 'https://ohdoglas.github.io/server-defense-cli/', image: 'https://content.imageresizer.com/images/memes/Hacker-Doge-meme-9.jpg' },
+        { title: 'Gestão Adm Empresas', description: 'Simulador de Gestão de Empresas', href: 'https://ohdoglas.github.io/gestao_admin_dashboard_entrega05_github_pages_acesso/index.html', image: 'https://cdn-icons-png.flaticon.com/512/6512/6512792.png' }
       ]
     },
     {
